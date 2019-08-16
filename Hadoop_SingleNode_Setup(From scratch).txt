@@ -18,7 +18,7 @@ Prerequisite
 
 
 ###### Download Apache Hadoop ######
-wget http://apache.mirrors.tds.net/hadoop/common/hadoop-2.7.3/hadoop-2.7.3.tar.gz
+wget https://archive.apache.org/dist/hadoop/core/hadoop-2.7.3/hadoop-2.7.3.tar.gz  
 
 ###### Install JAVA ######
 sudo apt-get install openjdk-8-jdk
