@@ -1,6 +1,6 @@
 Tar -xvf sqoop-1.4.6.bin_hadoop-0.23.tar.gz
 sudo mkdir -p /usr/local/sqoop
-sudo cp -r ./sqoop-1.4.6.bin_hadoop-0.23 /usr/local/sqoop
+sudo cp -r ./sqoop-1.4.6.bin__hadoop-0.23 /usr/local/sqoop
 sudo chown -R user01:user01 /usr/local/sqoop
 
 
