@@ -44,8 +44,10 @@ sudo nano ~/.bashrc
 
 Step 2.1 Set up hive path bash shell
 #Hive 
-export HIVE_HOME=/usr/local/hive
-export PATH=$PATH:/usr/local/hive/bin
+export export HIVE_HOME=/usr/local/hive
+export PATH=$PATH:$HIVE_HOME/bin
+export PATH=$PATH:$HIVE_HOME/sbin
+
 
 Step 2.2 : Restart bash shell
 source ~/.bashrc
