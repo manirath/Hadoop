@@ -7,7 +7,7 @@ hdfs dfs -copyFromLocal ~/survey_data.csv /inputs/
 hdfs dfs -ls /inputs 
 
 #Step 3 : Read file content on dfs 
-hdfs dfs -cat /inputs/sales_data_jan2009.csv
+hdfs dfs -cat /inputs/survey_data.csv.csv
 
 Step 1 : ## Create java file ## 
 cd 
