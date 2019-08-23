@@ -1,0 +1,25 @@
+Tar -xvf sqoop-1.4.6.bin_hadoop-0.23.tar.gz
+
+sudo cp -r ./sqoop-1.4.6.bin_hadoop-0.23 /usr/local/sqoop
+sudo chown -R user01:user01 /usr/local/sqoop
+
+
+nano .bashrc
+export SQOOP_HOME=/usr/local/sqoop
+export PATH=$PATH:$SQOOP_HOME/bin
+------------------------------------------------------
+source .bashrc
+
+cd /usr/local/sqoop/conf
+ls -l
+cp /usr/local/sqoop/conf/sqoop-env-template.sh /usr/local/sqoop/conf/sqoop-env.sh
+
+gedit sqoop-env.sh
+export HADOOP_COMMAND_HOME=/usr/local/hadoop
+
+export HADOOP_MAPRED_HOME=/usr/local/hadoop
+cd
+sudo cp mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar /usr/local/sqoop/lib
+
+
+sqoop-version
