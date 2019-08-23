@@ -3,7 +3,7 @@ hdfs dfs -mkdir /inputs
 hdfs dfs -mkdir /outputs 
 
 #Step 2 : copy file to dfs 
-hdfs dfs -copyFromLocal ~/sales_data_jan2009.csv /inputs/ 
+hdfs dfs -copyFromLocal ~/survey_data.csv /inputs/ 
 hdfs dfs -ls /inputs 
 
 #Step 3 : Read file content on dfs 
