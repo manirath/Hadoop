@@ -18,6 +18,8 @@ cd
 tar -xvf apache-flume-1.7.0-bin.tar.gz
 
 Step 2 : ## Copy folder apache-flume-1.7.0 to usr/local/flume 
+sudo mkdir /usr/local/flume
+sudo chown user01:user01 -R /usr/local/flume
 sudo sudo cp -r apache-flume-1.7.0-bin/* /usr/local/flume
 
 Step 3 : ## Set startup path and configuration bash shell ##
